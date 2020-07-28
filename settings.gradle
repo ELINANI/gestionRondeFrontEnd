@@ -1,0 +1,2 @@
+rootProject.name='gestionRondeFrontEnd'
+include ':app'

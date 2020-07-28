@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    tools:context=".AgentActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:padding="10dp">
+
+    <EditText
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:id="@id/codeAgent"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:hint="code Agent"
+        />
+        <EditText
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@id/nomAgent"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="nom Agent"
+            />
+        <EditText
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@id/prennomAgent"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="prenom Agent"
+            />
+        <EditText
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@id/pwdAgent"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="password"
+            />
+        <EditText
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@id/codeAgentPlanning"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="code Planning"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorText"
+            android:text="Add"
+            android:background="@color/colorPrimaryDark"
+            android:id="@id/btnAddAgent"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorPrimaryDark2"
+    tools:context=".planningDetails">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dcode Planning:"
+        android:textSize="20sp"
+        android:id="@id/codePlanningDetails"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textSize="20sp"
+        android:id="@id/descDetails"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="code Admin:"
+        android:textSize="20sp"
+        android:id="@id/codeAdminDetails"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+</LinearLayout>

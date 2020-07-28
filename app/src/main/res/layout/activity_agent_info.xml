@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="code Agent:"
+        android:textSize="20sp"
+        android:id="@id/codeAgentInfo"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nom Agent:"
+        android:textSize="20sp"
+        android:id="@id/nomAgentInfo"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="prenom Agent:"
+        android:textSize="20sp"
+        android:id="@id/prenomAgentInfo"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password Agent:"
+        android:textSize="20sp"
+        android:id="@id/pwdAgentInfo"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="code planning:"
+        android:textSize="20sp"
+        android:id="@id/codePlanningAgentInfo"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+</LinearLayout>

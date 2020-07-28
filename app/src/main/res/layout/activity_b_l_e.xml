@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    tools:context=".BLEActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:padding="10dp">
+        <EditText
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@id/idBLE"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="Id BLE"
+            />
+        <EditText
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:id="@id/heure"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="Heure"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorText"
+            android:text="Add"
+            android:background="@color/colorPrimaryDark"
+            android:id="@id/btnAddBLE"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

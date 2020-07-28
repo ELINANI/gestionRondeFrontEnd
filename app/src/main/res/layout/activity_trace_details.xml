@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TraceDetails">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="code Trace:"
+        android:textSize="20sp"
+        android:id="@id/codeTraceDetails"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id BLE:"
+        android:textSize="20sp"
+        android:id="@id/idBLEDetails"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="code Agent:"
+        android:textSize="20sp"
+        android:id="@id/codeAgentTraceDetails"
+        android:layout_marginBottom="10dp"
+
+        />
+
+</LinearLayout>

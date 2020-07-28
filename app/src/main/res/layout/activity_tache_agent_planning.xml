@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    tools:context=".tacheAgentPlanning">
+    <EditText
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:id="@id/codeTraceTache"
+        android:layout_width="300dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="20dp"
+        android:hint="code Trace"
+        android:enabled="false"
+        />
+    <EditText
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:id="@id/wifiNameTraceTache"
+        android:layout_width="300dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:paddingLeft="20dp"
+        android:hint="wifi Name"
+        />
+    <EditText
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:id="@id/codeAgentTraceTache"
+        android:layout_width="300dp"
+        android:layout_marginLeft="35dp"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:hint="code Agent"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:text="save"
+        android:layout_marginLeft="35dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@id/btnAddTache"
+        />
+
+
+</LinearLayout>
